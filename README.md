@@ -1,6 +1,6 @@
 # Axle & Co. — Automotive Parts E-commerce
 
-A full-stack online store for car parts and accessories, built by **JEET SHAW** for the **UCT Full Stack Internship** (Project 3: *e-commerce website for automotive parts*).
+A full-stack online store for car parts and accessories
 
 Shoppers pick their car (make, model, year) and see only parts that fit. They search, add to a cart that is saved across sessions, pay through a payment gateway and track the order. Store staff manage products, stock, orders, suppliers and promotions from an admin area.
 
