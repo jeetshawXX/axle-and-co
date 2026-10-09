@@ -1,0 +1,28 @@
+{
+  "name": "axle-and-co-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "REST API for the Axle & Co. automotive parts store",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/seed.js --reset",
+    "test": "node --test \"tests/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "nodemailer": "^10.0.15",
+    "stripe": "^23.0.0",
+    "zod": "^4.6.5"
+  }
+}
